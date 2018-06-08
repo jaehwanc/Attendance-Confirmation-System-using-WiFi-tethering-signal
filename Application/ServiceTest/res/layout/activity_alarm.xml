@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical|right">
+    
+      <EditText android:id="@+id/et_ee"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:maxLength="1" />
+      
+      <TextView
+          android:layout_width="30dp"
+          android:layout_height="40dp"
+          android:text="@string/hint_ee"
+          android:gravity="center"/>
+      
+        <EditText android:id="@+id/et_hh"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:maxLength="2"
+        android:inputType="number"/>
+        
+        <TextView
+          android:layout_width="30dp"
+          android:layout_height="40dp"
+          android:text="@string/hint_hh"
+          android:gravity="center"/>
+        
+        <EditText
+        android:id="@+id/et_mm"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:maxLength="2"
+        android:inputType="number"/>
+        
+        <TextView
+          android:layout_width="20dp"
+          android:layout_height="40dp"
+          android:text="@string/hint_mm"
+          android:gravity="center"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_add"
+            android:onClick="onClickAdd" />
+
+    </LinearLayout>
+    
+    <TextView android:id="@+id/text_add"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|right"/>
+    
+    <ListView 
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+        <requestFocus />
+        </ListView>
+        
+    
+
+    <Button android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/btn_start"
+     android:onClick="onClickStart"/>
+    
+    <TextView android:id="@+id/text_start"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"/>
+    
+</LinearLayout>

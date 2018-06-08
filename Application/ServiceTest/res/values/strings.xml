@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">출석체크알람</string>
+    
+    <string name="hint_ee">요일</string>
+    <string name="hint_hh">시</string>
+    <string name="hint_mm">분</string>
+    
+    <string name="btn_add">추가</string>
+    <string name="btn_start">서비스 시작</string>
+    <string name="btn_stop">서비스 중지</string>
+    <string name="btn_del">제거</string>
+    
+
+</resources>
